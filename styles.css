@@ -1,0 +1,95 @@
+.main-container{
+  border: 1px solid #000;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h2{
+  color: #fff;
+}
+
+.list-items{
+  color: #fff;
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #2a2a2a;
+}
+
+/*event listeners*/
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden-content{
+  display: none;
+}
+
+.hidden-content.reveal-btn{
+  display: block;
+}
+
+.reveal-btn{
+  cursor: pointer;
+}
+
+/* event propagation */
+
+.generic-box{
+  display: flex;
+  justify-content: center;
+}
+
+.div2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #474545;
+  width: fit-content;
+  padding: 2dvb;
+  border-radius: 5px;
+}
+
+.div1{
+ border: 2px solid #474545;
+ width: fit-content;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border-radius: 5px;
+}
+
+button{
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* event delegation */
+
+#sports{
+  border: 1px solid grey;
+  width: fit-content;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.list{
+  border: 1px solid grey;
+  padding: 10px;
+}
